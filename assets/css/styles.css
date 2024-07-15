@@ -35,6 +35,10 @@ a {
     background: #171100;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .main-content {
     width: 1170px;
     /* max-width dùng để khi màn hình thu nhỏ thì ko bị mất 2 cạnh 2 bên */
