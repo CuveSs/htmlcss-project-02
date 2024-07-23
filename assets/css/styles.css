@@ -442,6 +442,7 @@ a {
 
 .feedback .feedback-item {
     display: flex;
+    margin-left: 1px;
     width: 100%;
     flex-shrink: 0;
 }
@@ -503,3 +504,6 @@ a {
     font-style: italic;
     line-height: 1.53; /* 153.846% */
 }
+/* ============================Feedback-End=============================== */
+
+/* ============================Features-start=============================== */
