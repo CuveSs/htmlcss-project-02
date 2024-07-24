@@ -507,3 +507,53 @@ a {
 /* ============================Feedback-End=============================== */
 
 /* ============================Features-start=============================== */
+
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .image {
+    display: flex;
+    width: 49%;
+    gap: 0 30px;
+}
+
+.features .image img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features img.lower {
+    margin-top: 34px;
+}
+
+.features .content {
+
+}
+
+.features .heading {
+    margin-top: 58px;
+}
+
+.features .desc {
+    margin-top: 16px;
+    color: #5F5B53;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.features .btn {
+    background: #FFB900;
+    margin-top: 32px;
+    width: 137px;
+    height: 50px;
+    border-radius: 26px;
+}
