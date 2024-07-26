@@ -671,3 +671,22 @@ a {
 .blog-list .btn:hover {
     background: var(--primary-color);
 }
+
+.blog .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    gap: 6px;
+}
+
+.blog .dot {
+    width: 6px;
+    height: 6px;
+    background: #5f5b53;
+    border-radius: 50%;
+}
+
+.blog .dot:hover {
+    background: var(--primary-color);
+    cursor: pointer;
+}
