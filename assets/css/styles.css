@@ -704,9 +704,9 @@ a {
 }
 
 .footer .row {
-    border-bottom: 1px solid #59554b;
-    padding-bottom: 38px;
     display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
 }
 
 .footer .row .column:first-child {
@@ -748,17 +748,17 @@ a {
     margin-top: 12px;
 }
 
-.footer .list li a {
+.footer .list a {
     color: #bfbcb2;
     font-size: 1.4rem;
     line-height: 1.85; /* 185.714% */
 }
 
-.footer .list li a strong {
+.footer .list strong {
     color: #fff;
     font-size: 1.4rem;
     font-weight: 600;
-    line-height: 26px; /* 185.714% */
+    line-height: 1.85; /* 185.714% */
 }
 
 .footer .copyright {
